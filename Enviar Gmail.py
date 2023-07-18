@@ -1,6 +1,6 @@
 def enviar_email():
     '''
-    Função para envio de email que está sendo utilizada no prgrama principal
+    Função para envio de email que está sendo utilizada no programa principal
     na última linha de código
     '''
     import smtplib  # para cobrir a parte de autenticação
@@ -40,7 +40,7 @@ atual = dt.datetime.now() #buscando e definindo a data atual
 tabela = pd.read_excel('Contas a Receber.xlsx') #Realizei os processos de ETL(extração, tranformação e carregamento) que não estão no corpo do programa.
 #Para análise primeiro imprimi a tabela e depois usei a funçao '.info()' da biblioteca do pandas,
 #realizei os tratamentos necessários restou apenas produzir valor com as informações, conforme a finalidade do projeto.
-
+#OBS: não esqueça do diretório/nome correto do seu arquivo ou DB
 
 #Criando uma lista apenas com os valores 'em aberto'.
 #Logo depois tratando a lista para os clientes que já tiverem seu prazo de pagamento expirado.
